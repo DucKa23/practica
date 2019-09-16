@@ -87,7 +87,7 @@ Realizamos un `git checkout Alex_RoutingInterface`
 **Rama Jordi-HTML_Response**
 
 Realizamos un `git checkout Jordi-HTML_Response`
-Metodo erroneo ya que entrando en practica.aplicaciones.web 
+Metodo correcto. Entrando en practica.aplicaciones.web nos muetra la informacion solicitada.
 
 **Rama Kyomi_AJAXform**
 
