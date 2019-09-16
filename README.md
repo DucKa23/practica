@@ -68,15 +68,15 @@ Para comprobar las funcionalidades debemos entrar a las diferentes ramas, para e
 **Rama Musa-front**
 
 Realizamos un `git checkout Musa-front`
-Metodo erroneo ya que no muestra la ruta que solicta el usuario.
 
-Incorrecte No muestra la ruta solicitada por el usuario
+Metodo erroneo ya que no muestra la ruta que solicta el usuario.
 
 En index.php hay un exit en la linea numero 10.
 
 **Rama Walaa-Routing**
 
 Realizamos un `git checkout Walaa-Routing`
+
 Metodo erroneo hay un exit en la linea 4 del index.php.
 
 **Rama Alex-RoutingInterface**
