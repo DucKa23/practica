@@ -2,6 +2,7 @@
 ##  Parte 1
 Para crear la nueva "virtual-box" he modificado el archivo backend.pp de la ruta backend/puppet/manifests/ y he añadido el siguiente codigo:
 
+```
 nginx::resource::server{"practica.aplicaciones.web":
   use_default_location => false,
   listen_port => 80,
@@ -45,14 +46,15 @@ nginx::resource::location { "practica/index.php":
     'DOCUMENT_ROOT'    => '$realpath_root'
   }
 }
+```
 
-En la consola de vagrant usamos la instruccion: vagrant provision
+En la consola de vagrant usamos la instruccion: `vagrant provision`
 
 Abrir el archivo hosts con un editos de texto como Administrador y añadimos lo siguiente:
-192.168.33.10 practica.aplicaciones.web
+`192.168.33.10 practica.aplicaciones.web`
 
 Para desplegar el repositorio del github indicado en la consola de vagrant usamos la siguiente instruccion:
-git clone https://github.com/temple/Aplicaciones_web.git practica
+`git clone https://github.com/temple/Aplicaciones_web.git practica`
 
 Para comprobar si se ha cargado la aplicacion en el dominio entramos en el dominion con un navegador.
 
@@ -61,7 +63,7 @@ Para comprobar si se ha cargado la aplicacion en el dominio entramos en el domin
 
 Para comprobar las funcionalidades debemos entrar a las diferentes ramas, para ello usaremos la siguiente instruccion en vagrant:
 
-git checkout nombredelarama
+`git checkout nombredelarama`
 
 Rama Musa-front
 
