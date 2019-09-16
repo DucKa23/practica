@@ -65,7 +65,40 @@ Para comprobar las funcionalidades debemos entrar a las diferentes ramas, para e
 
 `git checkout nombredelarama`
 
-Rama Musa-front
+#Rama Musa-front
+
+Realizamos un `git checkout Musa-front`
+Metodo erroneo ya que no muestra la ruta que solicta el usuario.
+
+Incorrecte No muestra la ruta solicitada por el usuario
+
+En index.php hay un exit en la linea numero 10.
+
+#Rama Walaa-Routing
+Realizamos un `git checkout Walaa-Routing`
+Metodo erroneo hay un exit en la linea 4 del index.php.
+
+#Rama Alex-RoutingInterface
+Realizamos un `git checkout Alex_RoutingInterface`
+
+
+#Rama Jordi-HTML_Response
+
+Realizamos un `git checkout Jordi-HTML_Response`
+
+#Rama Kyomi_AJAXform
+
+Realizamos un `git checkout Kyomi_AJAXform`
+
+#Rama Carmen-errors
+
+Realizamos un `git checkout Carmen-errors`
+
+
+
+
+
+
 
 
 ## Parte 3
