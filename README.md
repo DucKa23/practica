@@ -87,10 +87,13 @@ Realizamos un `git checkout Alex_RoutingInterface`
 **Rama Jordi-HTML_Response**
 
 Realizamos un `git checkout Jordi-HTML_Response`
+Metodo erroneo ya que entrando en practica.aplicaciones.web 
 
 **Rama Kyomi_AJAXform**
 
 Realizamos un `git checkout Kyomi_AJAXform`
+Metodo erroneo.
+Entramos en practica.aplicaciones.web/contact y nos da error.
 
 **Rama Carmen-errors**
 
