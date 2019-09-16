@@ -87,7 +87,8 @@ Realizamos un `git checkout Alex_RoutingInterface`
 **Rama Jordi-HTML_Response**
 
 Realizamos un `git checkout Jordi-HTML_Response`
-Metodo correcto. Entrando en practica.aplicaciones.web nos muetra la informacion solicitada.
+Metodo correcto. 
+Entrando en practica.aplicaciones.web/home practica.aplicaciones.web/home/premium y  nos muetra la vista correcta.
 
 **Rama Kyomi_AJAXform**
 
@@ -98,7 +99,9 @@ Entramos en practica.aplicaciones.web/contact y nos da error.
 **Rama Carmen-errors**
 
 Realizamos un `git checkout Carmen-errors`
-
+Metodo correcto.
+Entramos en practica.aplicaciones.web/error y nos muestra la vista de ERROR.
+Entramos en practica.aplicaciones.web/404 y vemos que se muestra la vista 404 y el codigo HTTP en la pestaña network es el 404.
 
 
 
